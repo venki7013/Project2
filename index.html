@@ -3,16 +3,38 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>DigitalDiceRoller</title>
-    <link rel="stylesheet" href="./style.css">
-    <script src="./script.js"></script>
+    <title>Person1 Details</title>
+    <style>
+        body {
+            background-color: black;
+            color: white;
+        }
+        table, th, td {
+            border: 2px solid green;
+            border-collapse: collapse;
+            padding: 5px;
+            margin-top: 20%;
+            margin-left: auto;
+            margin-right: auto;
+        }
+    </style>
 </head>
 <body>
-    <div class="container">
-      <img src="./Images/1.png" alt="dice image" id="img"> 
-    </div>
-    <div class="btn-container">
-        <button id="btn" onclick="rollDice()">Shuffle</button>
-    </div>
+    <table>
+        <tr>
+            <th>Name</th>
+            <th>Number</th>
+            <th>Email</th>
+            <th>ID</th>
+            <th>Location</th>
+        </tr>
+        <tr>
+            <td>Venki</td>
+            <td>7013783700</td>
+            <td>venki.ithr@gmail.com</td>
+            <td>12345</td>
+            <td>Nellore</td>
+        </tr>
+    </table>
 </body>
 </html>
